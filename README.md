@@ -7,6 +7,9 @@ My goal was to explore how a streaming platform could use data to improve user e
 
 In addition, I created a simple interactive dashboard using Streamlit to make the analysis easier to explore.
 
+You can access the live dashboard here: 
+**[View Live App](https://moviedataanalysis1.streamlit.app/)**
+
 ---
 
 ## Features
