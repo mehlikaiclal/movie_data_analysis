@@ -1,6 +1,9 @@
 import streamlit as st
 import pandas as pd
 
+current_dir = os.path.dirname(os.path.abspath(__file__))
+data_path = os.path.join(current_dir, 'u.data') 
+
 st.set_page_config(page_title="Movie Dashboard", layout="wide")
 
 st.title("🎬 Movie Analytics Dashboard")
