@@ -1,8 +1,10 @@
 import streamlit as st
 import pandas as pd
+import os
 
 current_dir = os.path.dirname(os.path.abspath(__file__))
-data_path = os.path.join(current_dir, 'u.data') 
+data_path = os.path.join(current_dir, 'u.data')
+item_path = os.path.join(current_dir, 'u.item')
 
 st.set_page_config(page_title="Movie Dashboard", layout="wide")
 
@@ -15,10 +17,10 @@ min_ratings = st.sidebar.slider("Minimum number of ratings", 0, 500, 100)
 
 
 
-ratings = pd.read_csv('u.data', sep='\t', 
+ratings = pd.read_csv('data_path', sep='\t', 
                       names=['userId', 'movieId', 'rating', 'timestamp'])
 
-movies = pd.read_csv('u.item', sep='|', encoding='latin-1', header=None)
+movies = pd.read_csv('item_path', sep='|', encoding='latin-1', header=None)
 movies = movies[[0, 1]]
 movies.columns = ['movieId', 'title']
 
