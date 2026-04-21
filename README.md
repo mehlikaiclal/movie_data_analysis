@@ -1,35 +1,52 @@
 # Movie Platform Data Analysis Project
 
-## 📌 Overview
+## Overview
+In this project, I analyzed movie rating data to better understand user behavior and movie performance.
 
-This project analyzes user behavior and movie data to simulate how a streaming platform like Netflix can improve user engagement and recommendations.
+My goal was to explore how a streaming platform could use data to improve user engagement and recommendations.
 
-## Key Features
+In addition, I created a simple interactive dashboard using Streamlit to make the analysis easier to explore.
 
-* User activity analysis
-* User segmentation using K-means clustering
-* Movie popularity and rating analysis
-* Business strategy recommendations
+---
+
+## Features
+- User activity analysis
+- User segmentation using K-means clustering
+- Movie popularity and rating analysis
+- Simple interactive dashboard
+
+---
 
 ## Key Insights
+- A small number of users contribute most of the activity
+- Most users are relatively inactive
+- Popular movies are not always the highest rated
+- Both popularity and quality influence engagement
 
-* A small number of users contribute most of the activity
-* Most users are casual and not highly engaged
-* Highly rated and popular movies drive engagement
+---
 
 ## Business Applications
+- Personalized recommendations based on user behavior
+- Identifying low-engagement users to improve retention
+- Promoting high-quality content to increase satisfaction
 
-* Personalized recommendations based on user segments
-* Targeting low-engagement users to reduce churn
-* Promoting high-quality content to increase satisfaction
+---
 
 ## Tools Used
+- Python
+- Pandas
+- Matplotlib
+- Scikit-learn
+- Streamlit
 
-* Python
-* Pandas
-* Matplotlib
-* Scikit-learn
+---
 
-## 📌 Conclusion
+## Files
+- `movie-analysis.ipynb` → data analysis and modeling
+- `app.py` → simple dashboard for visualization
 
-This project aims to demonstrate how data can be used to make informed business decisions in the entertainment industry.
+---
+
+## What I Learned
+This project helped me better understand how to go from raw data to insights and how data can support decision-making in a business context.
+
