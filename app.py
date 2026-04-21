@@ -17,10 +17,10 @@ min_ratings = st.sidebar.slider("Minimum number of ratings", 0, 500, 100)
 
 
 
-ratings = pd.read_csv('data_path', sep='\t', 
+ratings = pd.read_csv(data_path, sep='\t', 
                       names=['userId', 'movieId', 'rating', 'timestamp'])
 
-movies = pd.read_csv('item_path', sep='|', encoding='latin-1', header=None)
+movies = pd.read_csv(item_path, sep='|', encoding='latin-1', header=None)
 movies = movies[[0, 1]]
 movies.columns = ['movieId', 'title']
 
